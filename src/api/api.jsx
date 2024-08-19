@@ -40,8 +40,8 @@ function Api() {
   const asideData = data.slice(1, 5);
 
   return (
-    <div className="main-container">
-      <div className="top-section">
+    <div>
+      <div>
         <Top tvShow={firstData} asideShows={asideData} />
         <Dropdown 
           category={category}
