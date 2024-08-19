@@ -3,8 +3,7 @@ import axios from 'axios';
 import Top from "../components/Top/top.jsx";
 import Dropdown from "../components/Dropdown/dropdown.jsx";
 import "/Users/yumikochow/generate-tech-challenge/src/App.css";
-
-const API_KEY = 'f3f61cda7190b47842c778ffa6c82b65';
+const API_KEY = process.env.REACT_APP_API_KEY;
 const param = 'top_rated';
 
 const series_id = 138502;
