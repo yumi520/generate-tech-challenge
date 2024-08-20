@@ -1,7 +1,7 @@
 import './App.css';
 import Nav from "./components/Nav/nav.jsx"
 import Top from "./components/Top/top.jsx"
-import Api from "./api/api.jsx"
+import Api from "./components/api.jsx"
 
 function App() {
   return (

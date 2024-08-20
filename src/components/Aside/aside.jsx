@@ -1,5 +1,3 @@
-import "/Users/yumikochow/generate-tech-challenge/src/App.css";
-
 function Aside({ asideShows }) {
   return (
     <section>
